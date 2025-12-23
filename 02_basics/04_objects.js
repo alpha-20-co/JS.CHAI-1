@@ -41,11 +41,11 @@ const User = [
     {
         id:1,
         email:"shruti@gmail.com"
-    }
+    },
      {
         id:1,
         email:"shruti@gmail.com"
-    }
+    },
      {
         id:1,
         email:"shruti@gmail.com"
