@@ -62,3 +62,39 @@ console.log(tinderUser.hasOwnProperty('isLoggedIn'));    // true because given o
 
 
 
+//DE-STRUCTURE
+
+const course = {
+    coursename : "js in hindi",
+    price : 999,
+    courseinstructor : "hitesh"
+}
+
+//course.courseinstructor
+
+const{courseinstrutor} = course
+console.log(courseinstrutor);
+
+// const{courseinstrutor : instructor} = course     (will give the same value)
+// console.log(instrutor);
+
+
+
+//JASON API
+
+// {
+//     "name" : "shruti"
+//     "coursename" : "js in hindi"         (keys are also string)
+//     "price" : "free"
+// }
+
+// API in array format  ( objects under an array)
+
+[
+    {},
+    {},
+    {}
+]
+
+
+
