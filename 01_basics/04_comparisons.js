@@ -5,5 +5,6 @@ console.log(null == 0);  //false
 console.log(null >= 0);  //true
 
 
-//comparisons and equality check are two different things.
+//comparison first changes null into number then compares it.(null = 0) that is why null>0 is false and null>=0 is true
+//comaprison and equality are two very different things.
 // strict check "===", checks value strictly means checks its datatype also.

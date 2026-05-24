@@ -17,3 +17,4 @@ console.log(typeof "shruti" );  // it tells us about the type of data
 
 console.log(typeof undefined);  //undefined
 console.log(typeof null);       //object
+
