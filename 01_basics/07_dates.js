@@ -33,4 +33,4 @@ console.log(newDate.getDay());    // starts from monday
 newDate.toLocaleString('default',{
     weekday : "long",
     timeZone : ''
-})
+})           // can customize the date format ouselves.
