@@ -1,4 +1,4 @@
-//singleton
+//singleton (constructor method)
 //object.create
 
 
@@ -21,7 +21,8 @@ const jsUser = {
 console.log(jsUser.email);
 console.log(jsUser["email"]);     // we can access the value in a specific key using both the methods.
 console.log(jsUser["full name"]);
-console.log(jsUser[mySym]);
+console.log(jsUser.mySym);         // string type hoga.
+console.log(jsUser[mySym]);        // isme type symbol hoga.
 
 jsUser.email = "shruti@chatgpt.com"    // changes email
 object.freeze(jsUser)                  // it freezes the object so that no values under any key can be further get changed now.

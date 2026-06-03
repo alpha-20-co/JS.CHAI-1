@@ -6,12 +6,12 @@ console.log(marvelHeroes);        //[ 'thor', 'spiderman', 'ironman', [ 'superma
 
 console.log(marvelHeroes[3][1]);   // flash
 
-const allHeroes = marvelHeroes.concat(dcHeroes);
+const allHeroes = marvelHeroes.concat(dcHeroes); // can merge only 2 arrays at a time.
 console.log(allHeroes);                // [ 'thor', 'spiderman', 'ironman', 'superman', 'flash', 'batman' ]
 // merges both the arrays
 
 
-const allnH = [...marvelHeroes, ...dcHeroes]  //SPREAD
+const allnH = [...marvelHeroes, ...dcHeroes]  //SPREAD..... can merge more than 2 arrays at a time that's why more used.
 console.log(allnH);                           // also merges both the arrays.
 
 const anotherArr = [1,2,3,[4,5,5],7,[6,7,[9,8]]]

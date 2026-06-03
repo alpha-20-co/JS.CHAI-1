@@ -28,7 +28,7 @@ const obj3 = {5:"t",6:"i"}
 // const obj4 = {obj1,obj2,obj3}
 // console.log(obj4);             // gives three objects under obj4
 
-// const obj4 = Object.assign({}, obj1, obj2, obj3)
+// const obj4 = Object.assign({}, obj1, obj2, obj3)   //{} (target) , obj1, obj2, obj3 (source)
 // console.log(obj4);
 
 const obj4 = {...obj1,...obj2,...obj3}     // spread, mostly used syntax for combining many objects
@@ -83,8 +83,8 @@ console.log(courseinstrutor);
 //JASON API
 
 // {
-//     "name" : "shruti"
-//     "coursename" : "js in hindi"         (keys are also string)
+//     "name" : "shruti",
+//     "coursename" : "js in hindi",         (keys are also string)
 //     "price" : "free"
 // }
 
