@@ -9,9 +9,9 @@ function sayMyName(){
 
 // sayMyName()
 
-// function addTwoNumbers(number1,number2){
+// function addTwoNumbers(number1,number2){             // number1,number2 are called parameters
 //     console.log(number1+number2);
-// }
+// }                                                    //3,4 are called arguments
 // addTwoNumbers(3,4)     //7
 // addTwoNumbers(3,"4")   //34
 // addTwoNumbers(3,"a")   //3a
