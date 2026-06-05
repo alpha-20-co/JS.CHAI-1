@@ -15,8 +15,8 @@ const user = {
 // function chai(){
 //     let username = "shruti"
 //     console.log(this.username);
-// }
-// chai()     // undefined
+// } 
+// chai()     // undefined     // this can be used under objects...function ke under use nhii kr paaenge
 
 
 // const chai = function(){
@@ -47,5 +47,7 @@ const chai = ()  => {
 // implicit return
 // const addTWo = (num1,num2)  => num1+num2
 // const addTWo = (num1,num2)  => (num1+num2)
+const addTWo = (num1,num2)  => {username:"shruti"}  // undefined
+const addTWo = (num1,num2)  => ({username:"shruti"}) //{username: "shruti"} , objects defined krne ke liye paranthesis use krna hi padega.
 
 // console.log(addTwo(3,4));     // will run similar.

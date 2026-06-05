@@ -1,10 +1,30 @@
-let a = 10
-const b = 20
-var c = 30
+// block scope and global scope
+
+// let a = 10
+// const b = 20
+// var c = 30
+
+//scope in code environment and scope during inspect in brwoser are different.
 
 
+//if else,functions and loops curly braces ke through scope defined hota h.
 
+//nested scope
 
+function one(){
+    
+    const username = "shruti"
+
+    function two(){
+        const website = "youtube"
+        console.log(username);
+    
+    }
+    console.log(website);
+    two()
+}
+one()       //scope is not working properly.
+// have to see it again
 
 
 
