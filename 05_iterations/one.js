@@ -13,7 +13,7 @@ for (let i = 0; i <= 10; i++) {
     // console.log(`outer loop value: ${i}`);
     for (let j = 0; j <= 10; j++) {
         // console.log(`inner loop value: ${j} and outer loop value: ${i}`);
-        // console.log( i + '*' + j + '=' + i*j);  
+        // console.log( i + '*' + j + '=' + i*j);     // table ban rha
     }    
 }
 
@@ -39,5 +39,6 @@ for (let index = 1; index <= 20; index++) {
         console.log(`detected 9`);
         continue;
     }
-   console.log(`value of i is ${index}`); 
+   console.log(`value of i is ${index}`);    // sab print hoga pr 9 print nhii hoga
 }
+

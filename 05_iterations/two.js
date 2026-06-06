@@ -16,7 +16,7 @@ while (arr<myArray.length) {
     
 }
 
-// do while loop
+// do-while loop    // pehle kaam hoga phir condition check hogaaaaaaaa
 
 let score = 1
 do {
