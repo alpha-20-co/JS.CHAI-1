@@ -12,7 +12,7 @@ for (const greet of greetings) {
     
 }
 
-// maps (it is an object)
+// maps (it is an object)   hols key-value pairs,same as dsa   (unique key in sorted order)
 
 const map = new Map()
 map.set("IN", "India")

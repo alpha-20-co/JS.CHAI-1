@@ -11,11 +11,11 @@ for (const key in myObject) {
 
 const programming = ["js","cpp","ruby","python","java"]
 for (const key in programming){
-    // console.log(programming[key]);
+    // console.log(programming[key]);      // bs key likhenge to 0 1 2 3 4 aa jaega mtlb key aaega bs
 }
 
 const map = new Map()                                  // can't be iterated.
-map.set("IN", "India")
+map.set("IN", "India")                                 // map is not iterable.
 map.set("USA", "United States of America")
 map.set("FR", "France")
 
