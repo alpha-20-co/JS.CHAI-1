@@ -2,19 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-   
-    <title>DOM learning</title>
-    <style>
-        .bg-black{
-            background-color: #212121;
-            color: #fff;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | chai aur code</title>
 </head>
-<body class="bg-black">
-     <div></div>
-     <h1 id = "title" class = "heading">DOM learning on Chai aur Code</h1>
-     <p>Lorem ipsum dolor sit amet.</p>
-     </div>
-     </body>
+<body style="background-color: #212121; color: white;">
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+<sript>
+    const parent=document.querySelector('.parent')
+    console.log(parent);
+    console.log(parent.children);
+</sript>
 </html>
